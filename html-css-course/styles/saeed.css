@@ -1,0 +1,119 @@
+.youtube{
+   position: relative;
+    width: 300px;
+    
+}
+
+.video-text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.video-text .tooltip{
+    position: absolute;
+   
+    opacity: 0;
+    transition: opacity 0.15s;
+   
+    white-space: nowrap;
+}
+
+.video-text:hover .tooltip{
+    opacity: 1;
+}
+
+.video{
+    width: 300px;
+}
+.video-text{
+display: grid;
+grid-template-columns: 40px 1fr;
+
+  
+}
+.text{
+    display: grid;
+    line-height: 5px;
+    color: gray;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.profile{
+    width: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 40px;
+
+
+}
+
+.one{
+    margin-bottom: 0px;
+    color: rgb(110, 113, 116);
+    font-family: arial;
+    line-height: 0px;
+    font-size: 15px;
+    margin-top: 0px;
+ }
+ .two{
+    color: rgb(110, 113, 116);
+    line-height: 10px;
+    font-size: 15px;
+    margin-top: 13px;
+ }
+
+
+
+
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    
+}
+.profiles{
+    width: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+  
+}
+
+.saeed{
+    width: 200px;
+    margin-left: 20px;
+    font-family: arial;
+    margin-top: 5px;
+    
+    
+   
+    
+
+    
+}
+   
+.me{
+display: grid;
+grid-template-columns: 40px 1fr;
+
+width: 180px;
+height: 80px;
+margin-left: 10px;
+box-shadow: 5px 5px 5px rgba(22, 22, 22, 0.15);
+border-style: solid;
+border-color: rgb(212, 206, 206);
+border-width: 1px;
+
+  
+}
+.letters{
+    font-size: 13px;
+    line-height: -0px;
+    color: rgb(72, 71, 71);
+}

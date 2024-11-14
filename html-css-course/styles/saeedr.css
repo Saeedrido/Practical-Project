@@ -1,0 +1,94 @@
+.YOUTUBE-CLASS{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+
+
+.img-project{
+    width: 400px;
+    
+}
+
+
+
+.profile-project{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  margin-top: 5px;
+  position: relative;
+}
+
+.profile-project .tooltip{
+    position: absolute;
+    bottom: -70px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    
+}
+
+
+
+.profile-project:hover .tooltip{
+    opacity: 1;
+}
+
+.profile{
+  width: 40px;
+  border-radius: 20px;
+    
+}
+
+.text{
+    margin-top: -10px;
+    margin-left: 10px;
+    line-height: 10px;
+    font-size: 13px;
+    font-family: arial; 
+    color: gray;   
+   
+}
+
+.one{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+  
+  
+}
+ .tooltip{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+   
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.15);
+ }
+.ones{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    font-family: arial;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+  
+}
+
+
+.texts{
+    margin-top: -5px;
+    margin-left: 50px;
+    line-height: 10px;
+    font-size: 13px;
+    font-family: arial; 
+    color: gray;   
+    width: 100px;
+ 
+}

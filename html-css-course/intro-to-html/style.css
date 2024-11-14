@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.search-bar button[type="button"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button[type="button"]:hover {
+    background-color: #444;
+}
+
+.book-list {
+    margin-bottom: 20px;
+}
+
+.book-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.book-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.book-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.book-details {
+    margin-bottom: 20px;
+}
+
+.book-details div {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}

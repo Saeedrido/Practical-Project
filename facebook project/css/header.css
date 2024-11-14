@@ -1,0 +1,179 @@
+.header{
+height: 65px;    
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+position: fixed;   
+top: 0;
+left: 0;
+right: 0;
+z-index: 100;
+background-color: white;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+.facebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -0px;
+}
+.facebook-logo{
+    height: 40px;
+    margin-left: 20px;
+   
+}
+
+.search{
+display: flex;
+align-items: center;
+justify-content: center;
+ margin-left: -35px;
+ height: 45px;
+ width: 280px;
+ padding-left: 40px;
+ border: none;
+ border-radius: 80px;
+ margin-top: 10px;
+ font-size: 15px;
+ font-family: arial;
+ margin-bottom: 8px;
+}
+input, textarea {
+    background-color: rgb(240, 242, 245);
+  }
+ .button{
+    border: none;
+    z-index: 200;
+ }   
+.search-icon{
+    height: 30px;
+    margin-left: 10px;
+    z-index: 100;
+    border-radius: 50px;
+    margin-top:0px ;
+    background-color:rgb(240, 242, 245) ;
+    
+}
+
+
+
+.home-container,
+.video-container,
+.market-container,
+.group-container,
+.game-container,
+.container
+{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.home-container .tooltip,
+.video-container .tooltip,
+.market-container .tooltip,
+.group-container .tooltip,
+.game-container .tooltip,
+.container .tooltip{
+    position: absolute;
+    border-style: none;
+    background-color:rgb(82, 78, 78) ;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: roboto, arial;
+    opacity: 0;
+    pointer-events: none;
+    bottom: -45px;
+}
+
+.home-container:hover .tooltip,
+.video-container:hover .tooltip,
+.market-container:hover .tooltip,
+.group-container:hover .tooltip,
+.game-container:hover .tooltip,
+.container:hover .tooltip
+{
+   opacity: 1;
+}
+
+.tooltip{
+    margin-left: 10px;
+}
+
+.middle-section{
+    flex: 1;
+   display: flex;
+   justify-content: space-between;
+  margin-top: 5px;
+  margin-left: 105px;
+  margin-right: 225px;
+}
+
+.home{
+    height: 40px;
+    margin-bottom: 0px; 
+}
+
+.video{
+    height: 35px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+   
+}
+
+.market{
+    height: 30px;
+   margin-left: 10px;
+   
+}
+
+.Group{
+    height: 30px;
+     margin-top: 5px;
+     margin-left: 10px;
+}
+
+.game{
+    height: 30px;
+   margin-left: 10px;
+  
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    margin-right:10px;
+   
+    margin-top: 10px;
+   
+    
+}
+.container{
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.bar{
+ height: 20px;
+ 
+}
+
+.message{
+    height: 20px;
+}
+
+.notification{
+    height: 20px;
+}
+
+.mypics{
+    border-radius: 40px;
+    margin-left: 20px;
+}

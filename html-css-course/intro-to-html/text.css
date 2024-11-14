@@ -1,0 +1,60 @@
+
+
+
+.video-title {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.video-dots{
+    font-weight: bold;
+    font-size: 15px;
+    width:200px;
+    color: rgb(96, 96,96);
+    line-height: 5px;
+    margin-bottom: 30px;
+}
+
+.video-mark{
+    font-size: 14px;
+    color: rgb(96, 96,96);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.video-tech{
+    font-size: 14px;
+    color:rgb(96, 96,96);
+    margin-bottom: 20px;
+    font-weight: bold; 
+    font-size: 20px;
+    margin-bottom: 100px;
+    font-family: roboto;
+    
+}
+
+.video-now {
+    font-size: 14px;
+    color:white;
+    margin-top: 0px;
+    line-height: 22px;
+    background-color: red;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: arial;
+
+    
+}
+
+.video-shop{
+    cursor: pointer;
+}
+
+.video-shop:hover {
+    text-decoration: underline;
+}

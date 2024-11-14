@@ -1,0 +1,109 @@
+.rightbar{
+    position: fixed;
+    right: 0;
+    bottom: 0; 
+    background-color: rgb(241, 241, 241); 
+    top: 50px;
+    width: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow:rgb(241, 241, 241);
+
+
+    
+}
+
+
+  
+
+.rightbar-link{
+    height: 100px;
+    margin-top: 10px;
+   
+}
+
+.rightbar-link:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.rightbar-link img{
+    height: 100px;
+}
+.right-link{
+    height: 50px;
+}
+.right-link:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.right-link img{
+    height: 30px;
+    border-radius: 20px;
+}
+
+.video{
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.texts{
+    font-weight: 600;
+    font-family:roboto, arial;
+    color: rgb(124, 122, 122);
+    font-size: 18px;
+}
+.text{
+margin-left: 110px;
+margin-top: 5px;
+font-size: 13px;
+
+}
+.tech-text{
+    margin-left: 110px;
+    margin-top: -80px;
+    font-family: arial;
+    font-weight: 550;
+    color: rgb(110, 109, 109);
+    width: 150px;
+}
+
+.you{
+  font-family: arial; 
+  margin-left: 50px;
+  margin-top: -30px;
+  font-weight: 550;
+  color: rgb(65, 63, 63);
+}
+
+.me{
+    margin-left: 50px;
+    margin-top: -30px;
+    color: rgb(124, 121, 121);
+    font-weight: 600;
+}
+
+.hr{
+    margin-top: 20px;
+    border-color:rgb(255, 255, 255);
+    margin-right: 40px;
+}
+
+.hrs{
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+.gift{
+    font-family: arial;
+    margin-left: 35px;
+    margin-top: -27px;
+    font-weight: 550;
+    color: rgb(46, 44, 44);
+    width: 250px;
+}
+
+.gift-test{
+    color: rgb(59, 57, 57);
+    font-weight: 100;
+}

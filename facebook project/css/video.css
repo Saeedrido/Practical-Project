@@ -1,0 +1,88 @@
+.profile-facebook{
+    width: 497px;             
+    height: 700px;  
+     border-style: solid;
+     border-width: 1px;
+     border-radius: 10px;
+     border-color: rgb(209, 208, 208);
+     box-shadow: 5px 5px 5px rgba(85, 82, 82, 0.15);
+     margin-bottom: 20px;
+     margin-top: 80px;
+}
+
+
+
+.profiles{
+   display: grid;
+   grid-template-columns: 40px 1fr;
+}
+
+.facebook-pics{
+   height: 500px;
+   width: 497px;
+ 
+}
+
+.together{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(97, 95, 95);
+    
+}
+
+.likes{
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+   
+}
+.messages{
+  height: 30px;
+  margin-right: 10px;
+    
+
+}
+
+.numbers{
+    margin-right: 360px;
+    margin-top: 6px;
+}
+.number{
+    margin-top: 6px;
+}
+
+.profile{
+   border-radius: 40px;
+   margin-top: 10px;
+   margin-left: 15px;
+}
+
+
+
+.one{
+   font-weight:bold ;
+   font-family: arial;
+   margin-left: 20px;
+}
+.ones{
+    color: gray;
+    font-weight: normal;
+    }
+ .oness{
+    font-weight: 1000;
+    margin-left: 350px;
+    margin-top: -30px;
+ }   
+
+.two{
+    color: gray;
+    margin-left: 60px;
+    margin-top: -12px;
+}    
+
+.twos{
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+

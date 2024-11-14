@@ -1,0 +1,15 @@
+.video-dots{
+    font-size: 25px;
+    font-family:arial ;
+    font-weight: bold;
+    color:rgb(37, 12, 12);
+    margin-bottom: 15px;
+}
+.video-mark{
+color:rgb(185, 11, 11);
+font-family: arial;
+font-style: italic;
+cursor: pointer;
+line-height: 0px;
+margin-top: 0px;
+}

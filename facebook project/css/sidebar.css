@@ -1,0 +1,71 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 350px;
+    margin-top: 30px;
+    overflow-y:  scroll;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    
+
+}
+
+.sidebar-link{
+    height: 50px;
+   
+}
+
+.tech-text{
+   margin-left: 70px;
+   margin-top: -30px;
+   font-family: arial;
+   font-weight: 600;
+   color: rgb(90, 87, 87);
+}
+
+
+.sidebar-link:hover{
+   background-color: lightgray;
+   margin-left: 10px;
+   border-radius: 10px;
+  
+}
+
+.sidebar-link img{
+    height:30px ;
+    margin-left: 25px;
+    border-radius: 20px;
+    margin-top: 5px;
+    
+}
+
+.line{
+    margin-left: 15px;
+    border-color:rgb(255, 255, 255);
+    cursor: default;
+}
+
+
+
+
+
+
+.text{
+    font-weight: 550;
+    font-family:roboto, arial;
+    margin-left: 15px;
+    font-size: 20px;
+    color: rgb(136, 136, 136);
+    pointer-events: none;
+    
+}
+
+
+
+
+
+
+    
+   
